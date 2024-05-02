@@ -7,9 +7,36 @@ public class Personne {
     public String firstName;
     public AdressePostale address;
 
-    public Personne(String lastName, String firstName, AdressePostale adressePostale){
+    public Personne(String lastName, String firstName){
         this.lastName = lastName;
         this.firstName = firstName;
-        this.address = adressePostale;
+    }
+
+    public void showName(){
+        System.out.println(firstName + " " + lastName.toUpperCase());
+    }
+
+    public void setLastName(String lastName){
+        this.lastName = lastName; 
+    }
+
+    public void setFirstName(String firstName){
+        this.firstName = firstName; 
+    }
+
+    public void setAddress(AdressePostale address){
+        this.address = address;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public AdressePostale getAddress() {
+        return address;
     }
 }

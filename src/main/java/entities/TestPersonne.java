@@ -20,14 +20,16 @@ public class TestPersonne {
 
         Personne p1 = new Personne(
             "Boulanger",
-            "Sullyvan",
-            a1
+            "Sullyvan"
         );
+
+        p1.setAddress(a1);
 
         Personne p2 = new Personne(
             "Divinity",
-            "Project:",
-            a2
+            "Project:"
         );
+
+        p2.setAddress(a2);
     }
 }
