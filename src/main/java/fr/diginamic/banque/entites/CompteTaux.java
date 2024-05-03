@@ -1,6 +1,4 @@
-package fr.diginamic.banque;
-
-import fr.diginamic.banque.entites.Compte;
+package fr.diginamic.banque.entites;
 
 public class CompteTaux extends Compte {
 
