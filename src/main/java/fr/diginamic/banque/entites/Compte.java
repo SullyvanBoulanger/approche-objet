@@ -20,4 +20,9 @@ public class Compte {
     public void setBalance(int balance) {
         this.balance = balance;
     }
+
+    @Override
+    public String toString() {
+        return "Id : " + id + "; Balance : " + balance;
+    }
 }
