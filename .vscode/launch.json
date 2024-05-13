@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ComptagePaysParContinent",
+            "request": "launch",
+            "mainClass": "maps.ComptagePaysParContinent",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "MapVilles",
+            "request": "launch",
+            "mainClass": "maps.MapVilles",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "CreationEtManipulationMap",
+            "request": "launch",
+            "mainClass": "maps.CreationEtManipulationMap",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "CreationMap",
+            "request": "launch",
+            "mainClass": "maps.CreationMap",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
