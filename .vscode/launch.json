@@ -1,0 +1,203 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "TestAdressePostale",
+            "request": "launch",
+            "mainClass": "entities.TestAdressePostale",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "TestPersonne",
+            "request": "launch",
+            "mainClass": "entities.TestPersonne",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "CreerFichier",
+            "request": "launch",
+            "mainClass": "fichier.CreerFichier",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "LectureFichier",
+            "request": "launch",
+            "mainClass": "fichier.LectureFichier",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "TestCSVUtils",
+            "request": "launch",
+            "mainClass": "fichier.TestCSVUtils",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "Yuka",
+            "request": "launch",
+            "mainClass": "fichier.Yuka",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "TestBanque",
+            "request": "launch",
+            "mainClass": "fr.diginamic.banque.TestBanque",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "TestOperation",
+            "request": "launch",
+            "mainClass": "fr.diginamic.banque.TestOperation",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "ManipulationChaine",
+            "request": "launch",
+            "mainClass": "fr.diginamic.chaines.ManipulationChaine",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "TestCercle",
+            "request": "launch",
+            "mainClass": "fr.diginamic.essais.TestCercle",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "TestForme",
+            "request": "launch",
+            "mainClass": "fr.diginamic.essais.TestForme",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "TestIntervenant",
+            "request": "launch",
+            "mainClass": "fr.diginamic.essais.TestIntervenant",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "TestMaison",
+            "request": "launch",
+            "mainClass": "fr.diginamic.essais.TestMaison",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "TestMoyenne",
+            "request": "launch",
+            "mainClass": "fr.diginamic.essais.TestMoyenne",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "TestOperations",
+            "request": "launch",
+            "mainClass": "fr.diginamic.essais.TestOperations",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "TestTheatre",
+            "request": "launch",
+            "mainClass": "fr.diginamic.essais.TestTheatre",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "Game",
+            "request": "launch",
+            "mainClass": "fr.diginamic.jdr.Game",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "CreationListe",
+            "request": "launch",
+            "mainClass": "listes.CreationListe",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "FusionListe",
+            "request": "launch",
+            "mainClass": "listes.FusionListe",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "TestListeInt",
+            "request": "launch",
+            "mainClass": "listes.TestListeInt",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "TestListeString",
+            "request": "launch",
+            "mainClass": "listes.TestListeString",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "TestVilles",
+            "request": "launch",
+            "mainClass": "listes.TestVilles",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "TestPays",
+            "request": "launch",
+            "mainClass": "sets.TestPays",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "TestSetDouble",
+            "request": "launch",
+            "mainClass": "sets.TestSetDouble",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "TestSetString",
+            "request": "launch",
+            "mainClass": "sets.TestSetString",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "TestVille",
+            "request": "launch",
+            "mainClass": "tri.TestVille",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "TestMethodeStatic",
+            "request": "launch",
+            "mainClass": "utils.TestMethodeStatic",
+            "projectName": "approche-objet"
+        }
+    ]
+}
