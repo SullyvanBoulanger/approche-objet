@@ -5,7 +5,9 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import tri.Ville;
 
 public class LectureFichier {
     public static void main(String[] args) {
@@ -34,6 +36,8 @@ public class LectureFichier {
                     Integer.parseInt(splittedLine[9].replaceAll(" ", ""))
                 ));
             });
+
+            Collections.sort(cities);
 
             List<String> linesToWrite = new ArrayList<>();
             linesToWrite.add("Nom de la commune;Code département;Nom de la région;Population totale;");
