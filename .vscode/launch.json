@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestStringbuilder",
+            "request": "launch",
+            "mainClass": "chaines.TestStringbuilder",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
             "name": "ComptagePaysParContinent",
             "request": "launch",
             "mainClass": "maps.ComptagePaysParContinent",
