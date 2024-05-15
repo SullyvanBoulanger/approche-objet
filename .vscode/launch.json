@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestEquals",
+            "request": "launch",
+            "mainClass": "listes.TestEquals",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
             "name": "TestCalendar",
             "request": "launch",
             "mainClass": "dates.TestCalendar",
