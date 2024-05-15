@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestCalendar",
+            "request": "launch",
+            "mainClass": "dates.TestCalendar",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "TestDates",
+            "request": "launch",
+            "mainClass": "dates.TestDates",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
             "name": "TestStringbuilder",
             "request": "launch",
             "mainClass": "chaines.TestStringbuilder",

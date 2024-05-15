@@ -1,13 +1,14 @@
 package chaines;
 
 public class TestStringbuilder {
-    public static int ITERATIONS = 200_000;
+    public static int ITERATIONS = 100_000;
 
     public static void TestStringBuilder() {
         StringBuilder stringBuilder = new StringBuilder();
         for (int j = 0; j < ITERATIONS; j++) {
             stringBuilder.append(j);
         }
+        stringBuilder.toString();
     }
 
     public static void TestStringConcat() {
