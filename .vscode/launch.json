@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestContinentAvecEnum",
+            "request": "launch",
+            "mainClass": "fr.diginamic.testenumeration.TestContinentAvecEnum",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
+            "name": "TestEnumeration",
+            "request": "launch",
+            "mainClass": "fr.diginamic.testenumeration.TestEnumeration",
+            "projectName": "approche-objet"
+        },
+        {
+            "type": "java",
             "name": "TestEquals",
             "request": "launch",
             "mainClass": "listes.TestEquals",

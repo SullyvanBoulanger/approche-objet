@@ -1,14 +1,16 @@
-package listes;
+package fr.diginamic.testenumeration;
 
 import java.util.Objects;
 
 public class Ville {
     private String name;
     private int numberOfInhabitants;
+    private Continent continent;
 
-    public Ville(String name, int numberOfInhabitants) {
+    public Ville(String name, int numberOfInhabitants, Continent continent) {
         this.name = name;
         this.numberOfInhabitants = numberOfInhabitants;
+        this.continent = continent;
     }
 
     public String getName() {
@@ -19,13 +21,21 @@ public class Ville {
         return numberOfInhabitants;
     }
 
+    public Continent getContinent() {
+        return continent;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
 
+    public void setContinent(Continent continent) {
+        this.continent = continent;
+    }
+
     @Override
     public String toString() {
-        return name + " " + numberOfInhabitants + " habitants";
+        return name + " " + continent.getLabel() + " " + numberOfInhabitants + " habitants";
     }
 
     @Override
